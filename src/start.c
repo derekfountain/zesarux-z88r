@@ -536,7 +536,7 @@ void print_funny_message(void)
 
     int mensaje_gracioso=randomize_noise[0] % MAX_RANDOM_FUNNY_MESSAGES;
     //printf ("indice mensaje gracioso: %d\n",mensaje_gracioso);
-    printf ("%s ... Just kidding ;)\n\n",random_funny_messajes[mensaje_gracioso]);
+    //printf ("%s ... Just kidding ;)\n\n",random_funny_messajes[mensaje_gracioso]);
                             /*
                             printf ("386 Processor or higher detected\n"
                                             "Using expanded memory (EMS)\n");
