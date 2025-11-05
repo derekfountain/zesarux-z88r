@@ -4977,6 +4977,14 @@ void interpreta_comando(char *comando,int misocket,char *buffer_lectura_socket_a
 			ifrom_press_button();
 	}
 
+	/* DF Enable Z88 features */
+	else if (!strcmp(comando_sin_parametros,"z88-open-flap")) {
+			z88_open_flap();
+	}
+	else if (!strcmp(comando_sin_parametros,"z88-close-flap")) {
+			z88_close_flap_ahora();
+	}
+
 
 	else if (!strcmp(comando_sin_parametros,"load-binary")) {
                 remote_parse_commands_argvc(parametros,&remote_command_argc,remote_command_argv);
